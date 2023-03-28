@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles/normalize.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <title>Корзина</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <main class="main">
+                <h1 class="title">Корзина</h1>
+                <div class="container">
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./images/item_one.jpg" alt="куртка" />
+                        </div>
+                        <div class="item__desc">
+                            <p class="item__name">Куртка</p>
+                            <p class="item__color">Цвет: чёрный</p>
+                            <p class="item__size">Размер: s</p>
+                            <p class="item__amount">Количество: 1</p>
+                        </div>
+                        <div class="item__price">
+                            <p class="price">3990 руб.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./images/item_two.jpg" alt="кроссовки" />
+                        </div>
+                        <div class="item__desc">
+                            <p class="item__name">Кроссовки</p>
+                            <p class="item__color">Цвет: белый</p>
+                            <p class="item__size">Размер: 38</p>
+                            <p class="item__amount">Количество: 1</p>
+                        </div>
+                        <div class="item__price">
+                            <p class="price">2500 руб.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./images/item_three.jpg" alt="брюки" />
+                        </div>
+                        <div class="item__desc">
+                            <p class="item__name">Брюки</p>
+                            <p class="item__color">Цвет: чёрный</p>
+                            <p class="item__size">Размер: 44</p>
+                            <p class="item__amount">Количество: 1</p>
+                        </div>
+                        <div class="item__price">
+                            <p class="price">4990 руб.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./images/item_four.jpg" alt="ремень" />
+                        </div>
+                        <div class="item__desc">
+                            <p class="item__name">Ремень</p>
+                            <p class="item__color">Цвет: чёрный</p>
+                            <p class="item__size">Размер: 90см</p>
+                            <p class="item__amount">Количество: 1</p>
+                        </div>
+                        <div class="item__price">
+                            <p class="price">1500 руб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="coupon-checkout">
+                    <button class="discountBtn">
+                        Использовать купон на 20%
+                    </button>
+                    <div class="total-price">
+                        <p class="total"></p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="./shopping_cart.js"></script>
+    </body>
+</html>
